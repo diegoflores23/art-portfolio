@@ -10,51 +10,14 @@
     ]
   },
   {
-    "objectID": "nacotitlan.html",
-    "href": "nacotitlan.html",
+    "objectID": "photoshop.html",
+    "href": "photoshop.html",
     "title": "Diego Flores Contreras",
     "section": "",
-    "text": "Nacotitlan is \nNacotitlan is futures \nNacotitlan is a dream\nNacotitlan is cosmovision\nlike Sun Ra’s Saturn,\na rejection of nationalism \nDespite implying it \nnacotitlan is the afrofuturism of this calendar… this geography… \nThe one in front of me and down below \nLike Cyber Aztlan is the afrofuturism to this cumbia \nTo write in another speech \nBecause this tongue weighs down \nwith heavier contradiction \nYa te crees de nacotitlan \nUna verdad objetiva \nEntre cerros y piedra explotada \nMi objetividad es futuros  \nConcreto como los muros de nacotitlan",
+    "text": "# install.packages(\"DiagrammeR\")\n\nlibrary(DiagrammeR)\nlibrary(htmlwidgets)\nlibrary(htmltools)\nlibrary(webshot2)\n\n\n\n\n\n\nmindmap\n  root((maiz))\n    7 calabasitas\n    \n    cebollines\n    \n    2 manojos, te de limon\n    \n    1 bolsa de chia \n    \n    5 alcachofas \n    \n    6 chiles gueros \n    \n    2 manojos, quelite \n    \n    1 manojo, arnica \n    \n    2 manojos, huazontle \n    \n    5 aguacates \n    \n    1 manaojo, te de manzanilla, \n    \n    2 manojos, verdolagas\n\n\n\n\n\n\nbi directional flow in wardley maps: A +&lt;&gt; B, see wardley map doc try overlap shrink\n\n\n\n\n\n\n\n\n\nG\n\n Maiz en el trueque de Tepeaca, Puebla\n\n\nmaiz\n\n\n\n\n\n\n\nmaiz\n\n\n\n7 calabasitas\n\n\n\n\n\n\n\n7 calabasitas\n\n\n\nmaiz--7 calabasitas\n\n\n\n\n\n\ncebollines\n\n\n\n\n\n\n\ncebollines\n\n\n\nmaiz--cebollines\n\n\n\n\n\n\nte de limon, 2 manojos\n\n\n\n\n\n\n\nte de limon, 2 manojos\n\n\n\nmaiz--te de limon, 2 manojos\n\n\n\n\n\n\n1 bolsa de chia\n\n\n\n\n\n\n\n1 bolsa de chia\n\n\n\nmaiz--1 bolsa de chia\n\n\n\n\n\n\n5 alcachofas\n\n\n\n\n\n\n\n5 alcachofas\n\n\n\nmaiz--5 alcachofas\n\n\n\n\n\n\n6 chiles gueros\n\n\n\n\n\n\n\n6 chiles gueros\n\n\n\nmaiz--6 chiles gueros\n\n\n\n\n\n\nquelite, 2 manojos\n\n\n\n\n\n\n\nquelite, 2 manojos\n\n\n\nmaiz--quelite, 2 manojos\n\n\n\n\n\n\narnica, 1 manojo\n\n\n\n\n\n\n\narnica, 1 manojo\n\n\n\nmaiz--arnica, 1 manojo\n\n\n\n\n\n\nhuazontle, 2 manojos\n\n\n\n\n\n\n\nhuazontle, 2 manojos\n\n\n\nmaiz--huazontle, 2 manojos\n\n\n\n\n\n\n5 aguacates\n\n\n\n\n\n\n\n5 aguacates\n\n\n\nmaiz--5 aguacates\n\n\n\n\n\n\nte de manzanilla, 1 manojo\n\n\n\n\n\n\n\nte de manzanilla, 1 manojo\n\n\n\nmaiz--te de manzanilla, 1 manojo\n\n\n\n\n\n\nverdolagas, 2 manojos\n\n\n\n\n\n\n\nverdolagas, 2 manojos\n\n\n\nmaiz--verdolagas, 2 manojos\n\n\n\n\n\n\n\n\n\n\n\n\n\ntext existing outside of the chart. essentially get this floating to the left or something like that. prolly write that in the scss file.\n\n\n\n\n\n\n\n\n\nG\n\n Maiz y sus intercambios en el trueque de Tepeaca, Puebla\n\n\nmaiz\n\nmaiz\n\n\n\n7 calabasitas\n\n7 calabasitas\n\n\n\nmaiz--7 calabasitas\n\n\n\n\ncebollines\n\ncebollines\n\n\n\nmaiz--cebollines\n\n\n\n\nte de limon, 2 manojos\n\nte de limon, 2 manojos\n\n\n\nmaiz--te de limon, 2 manojos\n\n\n\n\n1 bolsa de chia\n\n1 bolsa de chia\n\n\n\nmaiz--1 bolsa de chia\n\n\n\n\n5 alcachofas\n\n5 alcachofas\n\n\n\nmaiz--5 alcachofas\n\n\n\n\n6 chiles gueros\n\n6 chiles gueros\n\n\n\nmaiz--6 chiles gueros\n\n\n\n\nquelite, 2 manojos\n\nquelite, 2 manojos\n\n\n\nmaiz--quelite, 2 manojos\n\n\n\n\narnica, 1 manojo\n\narnica, 1 manojo\n\n\n\nmaiz--arnica, 1 manojo\n\n\n\n\nhuazontle, 2 manojos\n\nhuazontle, 2 manojos\n\n\n\nmaiz--huazontle, 2 manojos\n\n\n\n\n5 aguacates\n\n5 aguacates\n\n\n\nmaiz--5 aguacates\n\n\n\n\nte de manzanilla, 1 manojo\n\nte de manzanilla, 1 manojo\n\n\n\nmaiz--te de manzanilla, 1 manojo\n\n\n\n\nverdolagas, 2 manojos\n\nverdolagas, 2 manojos\n\n\n\nmaiz--verdolagas, 2 manojos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n wardley-beta\n# Title maiz y sus intercambios en el trueque de Tepeaca, Puebla \n\n\n\n\n\n\n\n\n\n\n\n\nwardley-beta\ntitle Tea Shop Value Chain\n\nanchor Business [0.95, 0.63]\ncomponent Cup of Tea [0.79, 0.61]\ncomponent Tea [0.63, 0.81]\ncomponent Hot Water [0.52, 0.80]\ncomponent Kettle [0.43, 0.35]\ncomponent Power [0.10, 0.70]\n\nBusiness -&gt; Cup of Tea\nCup of Tea -&gt; Tea\nCup of Tea -&gt; Hot Water\nHot Water -&gt; Kettle\nKettle -&gt; Power\n\nevolve Kettle 0.62\nevolve Power 0.89\n\nnote \"Standardising power allows Kettles to evolve faster\" [0.30, 0.49]\n\n\n\n\n\n\n\n\n\nin this page I will include all of my photos but in a grid style 12 columns, use 3 of those? how does that syntax read again?\nNESTING: Within here include the lipstick series.\nphotos I have simply edited\n\n\n    \n\n\n\n\n Back to top",
     "crumbs": [
-      "Nacotitlan"
+      "Digital"
     ]
-  },
-  {
-    "objectID": "nacotitlan.html#nacotitlan",
-    "href": "nacotitlan.html#nacotitlan",
-    "title": "Diego Flores Contreras",
-    "section": "",
-    "text": "Nacotitlan is \nNacotitlan is futures \nNacotitlan is a dream\nNacotitlan is cosmovision\nlike Sun Ra’s Saturn,\na rejection of nationalism \nDespite implying it \nnacotitlan is the afrofuturism of this calendar… this geography… \nThe one in front of me and down below \nLike Cyber Aztlan is the afrofuturism to this cumbia \nTo write in another speech \nBecause this tongue weighs down \nwith heavier contradiction \nYa te crees de nacotitlan \nUna verdad objetiva \nEntre cerros y piedra explotada \nMi objetividad es futuros  \nConcreto como los muros de nacotitlan",
-    "crumbs": [
-      "Nacotitlan"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Diego Flores is a multi-disciplinary artist from East Los Angeles whose work explores the aesthetic, cultural, and quotidian responses that emerge from the margins, down below and to the left. Currently, they reflect, through writing, paint, and mixed media, on these responses in the face of the U.S.’s dominant cultural and economic project.\n\n\n\nDiego Flores es un artista multidisciplinario del este de Los Angeles cuya obra explora las respuestas esteticas, culturales, y cotidianas que salen desde los margenes, hacia abajo, y a la izquierda. Actualmente, refleja— a traves de la escritura, pintura, y medios mixtos— sobre estas respuestas frente al proyecto culturual y economico dominante de los Estados Unidos.\n\n\n\n\n\n\n\n\n\n\n\n\nThis website was coded using the open source language R and SCSS and hosted on Github. Feel free to use the code, available here.\n\n\n\n Back to top",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "photography.html",
-    "href": "photography.html",
-    "title": "photography",
-    "section": "",
-    "text": "introduce a grid here\nto do finish RE portfolio, apply to Ra position, new wmd for a mindmap based off\n  \n\n\n\n Back to top",
-    "crumbs": [
-      "Photo"
-    ]
-  },
-  {
-    "objectID": "posts/photo1.html",
-    "href": "posts/photo1.html",
-    "title": "photo1",
-    "section": "",
-    "text": "Back to top"
   },
   {
     "objectID": "index.html",
@@ -97,13 +60,30 @@
     ]
   },
   {
-    "objectID": "photoshop.html",
-    "href": "photoshop.html",
-    "title": "Diego Flores Contreras",
+    "objectID": "posts/photo1.html",
+    "href": "posts/photo1.html",
+    "title": "photo1",
     "section": "",
-    "text": "# install.packages(\"DiagrammeR\")\n\nlibrary(DiagrammeR)\nlibrary(htmlwidgets)\nlibrary(htmltools)\nlibrary(webshot2)\n\n\n\n\n\n\nmindmap\n  root((maiz))\n    7 calabasitas\n    \n    cebollines\n    \n    2 manojos, te de limon\n    \n    1 bolsa de chia \n    \n    5 alcachofas \n    \n    6 chiles gueros \n    \n    2 manojos, quelite \n    \n    1 manojo, arnica \n    \n    2 manojos, huazontle \n    \n    5 aguacates \n    \n    1 manaojo, te de manzanilla, \n    \n    2 manojos, verdolagas\n\n\n\n\n\n\nbi directional flow in wardley maps: A +&lt;&gt; B, see wardley map doc try overlap shrink\n\n\n\n\n\n\n\n\n\nG\n\n Maiz en el trueque de Tepeaca, Puebla\n\n\nmaiz\n\n\n\n\n\n\n\nmaiz\n\n\n\n7 calabasitas\n\n\n\n\n\n\n\n7 calabasitas\n\n\n\nmaiz--7 calabasitas\n\n\n\n\n\n\ncebollines\n\n\n\n\n\n\n\ncebollines\n\n\n\nmaiz--cebollines\n\n\n\n\n\n\nte de limon, 2 manojos\n\n\n\n\n\n\n\nte de limon, 2 manojos\n\n\n\nmaiz--te de limon, 2 manojos\n\n\n\n\n\n\n1 bolsa de chia\n\n\n\n\n\n\n\n1 bolsa de chia\n\n\n\nmaiz--1 bolsa de chia\n\n\n\n\n\n\n5 alcachofas\n\n\n\n\n\n\n\n5 alcachofas\n\n\n\nmaiz--5 alcachofas\n\n\n\n\n\n\n6 chiles gueros\n\n\n\n\n\n\n\n6 chiles gueros\n\n\n\nmaiz--6 chiles gueros\n\n\n\n\n\n\nquelite, 2 manojos\n\n\n\n\n\n\n\nquelite, 2 manojos\n\n\n\nmaiz--quelite, 2 manojos\n\n\n\n\n\n\narnica, 1 manojo\n\n\n\n\n\n\n\narnica, 1 manojo\n\n\n\nmaiz--arnica, 1 manojo\n\n\n\n\n\n\nhuazontle, 2 manojos\n\n\n\n\n\n\n\nhuazontle, 2 manojos\n\n\n\nmaiz--huazontle, 2 manojos\n\n\n\n\n\n\n5 aguacates\n\n\n\n\n\n\n\n5 aguacates\n\n\n\nmaiz--5 aguacates\n\n\n\n\n\n\nte de manzanilla, 1 manojo\n\n\n\n\n\n\n\nte de manzanilla, 1 manojo\n\n\n\nmaiz--te de manzanilla, 1 manojo\n\n\n\n\n\n\nverdolagas, 2 manojos\n\n\n\n\n\n\n\nverdolagas, 2 manojos\n\n\n\nmaiz--verdolagas, 2 manojos\n\n\n\n\n\n\n\n\n\n\n\n\n\ntext existing outside of the chart. essentially get this floating to the left or something like that. prolly write that in the scss file.\n\n\n\n\n\n\n\n\n\nG\n\n Maiz y sus intercambios en el trueque de Tepeaca, Puebla\n\n\nmaiz\n\nmaiz\n\n\n\n7 calabasitas\n\n7 calabasitas\n\n\n\nmaiz--7 calabasitas\n\n\n\n\ncebollines\n\ncebollines\n\n\n\nmaiz--cebollines\n\n\n\n\nte de limon, 2 manojos\n\nte de limon, 2 manojos\n\n\n\nmaiz--te de limon, 2 manojos\n\n\n\n\n1 bolsa de chia\n\n1 bolsa de chia\n\n\n\nmaiz--1 bolsa de chia\n\n\n\n\n5 alcachofas\n\n5 alcachofas\n\n\n\nmaiz--5 alcachofas\n\n\n\n\n6 chiles gueros\n\n6 chiles gueros\n\n\n\nmaiz--6 chiles gueros\n\n\n\n\nquelite, 2 manojos\n\nquelite, 2 manojos\n\n\n\nmaiz--quelite, 2 manojos\n\n\n\n\narnica, 1 manojo\n\narnica, 1 manojo\n\n\n\nmaiz--arnica, 1 manojo\n\n\n\n\nhuazontle, 2 manojos\n\nhuazontle, 2 manojos\n\n\n\nmaiz--huazontle, 2 manojos\n\n\n\n\n5 aguacates\n\n5 aguacates\n\n\n\nmaiz--5 aguacates\n\n\n\n\nte de manzanilla, 1 manojo\n\nte de manzanilla, 1 manojo\n\n\n\nmaiz--te de manzanilla, 1 manojo\n\n\n\n\nverdolagas, 2 manojos\n\nverdolagas, 2 manojos\n\n\n\nmaiz--verdolagas, 2 manojos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n wardley-beta\n# Title maiz y sus intercambios en el trueque de Tepeaca, Puebla \n\n\n\n\n\n\n\n\n\n\n\n\nwardley-beta\ntitle Tea Shop Value Chain\n\nanchor Business [0.95, 0.63]\ncomponent Cup of Tea [0.79, 0.61]\ncomponent Tea [0.63, 0.81]\ncomponent Hot Water [0.52, 0.80]\ncomponent Kettle [0.43, 0.35]\ncomponent Power [0.10, 0.70]\n\nBusiness -&gt; Cup of Tea\nCup of Tea -&gt; Tea\nCup of Tea -&gt; Hot Water\nHot Water -&gt; Kettle\nKettle -&gt; Power\n\nevolve Kettle 0.62\nevolve Power 0.89\n\nnote \"Standardising power allows Kettles to evolve faster\" [0.30, 0.49]\n\n\n\n\n\n\n\n\n\nin this page I will include all of my photos but in a grid style 12 columns, use 3 of those? how does that syntax read again?\nNESTING: Within here include the lipstick series.\nphotos I have simply edited\n\n\n    \n\n\n\n\n Back to top",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "photography.html",
+    "href": "photography.html",
+    "title": "photography",
+    "section": "",
+    "text": "introduce a grid here\nto do finish RE portfolio, apply to Ra position, new wmd for a mindmap based off\n  \n\n\n\n Back to top",
     "crumbs": [
-      "Digital"
+      "Photo"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Diego Flores is a multi-disciplinary artist from East Los Angeles whose work explores the aesthetic, cultural, and quotidian responses that emerge from the margins, down below and to the left. Currently, they reflect, through writing, paint, and mixed media, on these responses in the face of the U.S.’s dominant cultural and economic project.\n\n\n\nDiego Flores es un artista multidisciplinario del este de Los Angeles cuya obra explora las respuestas esteticas, culturales, y cotidianas que salen desde los margenes, hacia abajo, y a la izquierda. Actualmente, refleja— a traves de la escritura, pintura, y medios mixtos— sobre estas respuestas frente al proyecto culturual y economico dominante de los Estados Unidos.\n\n\n\n\n\n\n\n\n\n\n\n\nThis website was coded using the open source language R and SCSS and hosted on Github. Feel free to use the code, available here.\n\n\n\n Back to top",
+    "crumbs": [
+      "About"
     ]
   },
   {
