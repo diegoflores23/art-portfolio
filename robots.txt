@@ -1,1 +1,1 @@
-Sitemap: diegoflores.studio/sitemap.xml
+Sitemap: https://diegoflores.studio/sitemap.xml
