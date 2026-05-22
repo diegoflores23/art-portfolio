@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diego Flores Contreras</title>
+<title>notes – Diego Flores Contreras</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,9 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -82,7 +79,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Diego Flores Contreras
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -114,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -157,17 +156,90 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page-right" id="quarto-document-content">
 
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/americana_flag_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Untitled, 36” x 24”, 2025. Acrylic, plastic (polyethylene), &amp; adhesive on canvas"><img src="images/americana_flag_1.jpg" class="img-fluid figure-img" alt="Untitled, 36” x 24”, 2025. Acrylic, plastic (polyethylene), &amp; adhesive on canvas"></a></p>
-<figcaption>Untitled, 36” x 24”, 2025. Acrylic, plastic (polyethylene), &amp; adhesive on canvas</figcaption>
-</figure>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">notes</h1>
 </div>
 
 
+
+<div class="quarto-title-meta column-page-right">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">notes</h2>
+<p>from photography.qmd:</p>
+<ul>
+<li><p>in this page I will include all of my photos but in a grid style 12 columns, use 3 of those? how does that syntax read again?</p></li>
+<li><p>NESTING: Within here include the lipstick series.</p></li>
+<li><p>photos I have simply edited</p></li>
+</ul>
+<p>Notes</p>
+<p>This is index.qmd or rather the intro page. Currently looking to add:</p>
+<p>full width</p>
+<p>nice minimalist font, black, sharper contrast.. maybe bolded</p>
+<p>font-family: helvetica</p>
+<p>font-weight: normal, bold,</p>
+<p>font-style:italic, normal</p>
+<p>grid spacing using page-layout: custom (Bootstrap CSS grid layout system 5.1), essentially wrapping whatever qmd page in a 3 column .grid (div I think). See gemini code below. Index.qmd will likely remain a large singular photo if I have the guts/ photos to make it that haha. Then the additional .qmd files will be:</p>
+<p>Digital art</p>
+<p>Nacotitlan</p>
+<p>Old photography</p>
+<p>Writings</p>
+<p>::: {.grid} ::: {.g-col-12 .g-col-md-3} ### My Portfolio&nbsp;</p>
+<p>This is where your Ten Toes “Sidebar” content goes.&nbsp;-&nbsp;<a href="./index.html">Home</a>&nbsp;-&nbsp;<a href="./about.html">About</a>&nbsp;-&nbsp;<a href="archive.qmd">Archive</a> :::</p>
+<p>::: {.g-col-12 .g-col-md-9}&nbsp;## My Work&nbsp;— listing: contents: posts type: grid&nbsp;columns: 3 —&nbsp;::: :::</p>
+<p>g-col-12 s</p>
+<p>lots of images</p>
+<p>left side bar, not top nav bar, sidebar should be</p>
+<p>Notes on .scss/ .css files</p>
+<p>Sass uses the $ symbol, followed by a name, to declare variables:</p>
+<p>Sass Variable Syntax: $variablename:&nbsp;value;</p>
+<p>NOTES</p>
+<p>the content of my website is essentially a collection of qmd documents</p>
+<p>I wonder if in this I can support large image files… shouldnt be an issue</p>
+<p>To add a CSS stylesheet to your document, just provide the&nbsp;css&nbsp;option. For example:</p>
+<p>format: html: css: styles.css</p>
+<p>Using the&nbsp;css&nbsp;option works well for simple tweaks to document appearance. If you want to do more extensive customization see the documentation on&nbsp;HTML Themes.</p>
+<p>a big chunk of my protfolios apearance will be in customzing the css (font and positioning of images.. grids, etc.) and the sidebar</p>
+<p>includes</p>
+<p>If you want to include additional content in your document from another file, you can use the&nbsp;include-in-*options:</p>
+<p>Option</p>
+<p>Description</p>
+<p>include-in-header</p>
+<p>Include contents of&nbsp;file, verbatim, at the end of the header. This can be used, for example, to include special CSS or JavaScript in HTML documents or to inject commands into the LaTeX preamble.</p>
+<p>Summary of where things go:</p>
+<p>CSS Styles: All the design rules go into&nbsp;styles.css.: visual polish, colors, specific spacing, effects, etc.</p>
+<p>Layout/ Site-wide Structure: This is handled by&nbsp;_quarto.yml… i.e.: (Navigation, Sidebars, Themes).</p>
+<p>The Content: Your actual images and posts go into individual&nbsp;.qmd&nbsp;files (e.g., in a&nbsp;/posts&nbsp;folder), which the “Listing” feature will automatically pull into the grid.</p>
+<p>KEY: my website setting MUST BE GLOBAL, so write most of my setting in quarto.yml. alternatively treat every portfolio page somewhat differently, in which case,</p>
+<p>The .qmd file is for Content &amp; Page-Specific Layout. (Markdown + Bootstrap Classes).</p>
+<p>The .css file is for Visual Polish. (Colors, specific spacing, hover effects).</p>
+<p>Achieving the ten toes look</p>
+<p>CSS Grid</p>
+<p>If you are using&nbsp;page-layout: custom, you’ll likely want to utilize the&nbsp;Bootstrap CSS Grid&nbsp;layout system (which is available by default in Quarto documents) for creating more sophisticated layouts.</p>
+<p>For example, here’s a simple 2-column grid:</p>
+<div class="grid">
+<div class="g-col-4">
+<p>This column takes 1/3 of the page</p>
+</div>
+<p>::: {.g-col-8} This column takes 2/3 of the page :::</p>
+</div>
+<p>Bootstrap’s CSS Grid system includes facilities for responsiveness, wrapping, nesting, and fine grained customization of column behavior.</p>
+<p>Note that this isn’t the traditional Bootstrap grid used in older versions of Bootstrap – rather, it’s a brand new layout system introduced in Bootstrap 5.1 based on the CSS Grid standard. Quarto uses this newer system because it has more sophisticated layout capabilities akin to what LaTeX offers for print documents.</p>
+<p>See the&nbsp;Bootstrap CSS Grid&nbsp;documentation for additionals details.</p>
+
+
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -591,38 +663,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
