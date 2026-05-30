@@ -14,6 +14,7 @@ body {
   line-height: $line-height;
   margin: 0;
   -webkit-font-smoothing: antialiased; /*improves helvetica text, crisp*/
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -39,10 +40,21 @@ a {
 .quarto-sidebar {
   font-size: 0.9rem;
   padding-top: $spacing-unit;
-  opacity: 0.7; #
-  transition: opacity 15s ease;
-  width: 225px; // also shortens the sidebar width a bit
-  margin-left: -3.5rem; // reduces space on the left margin
+  opacity: 0.7; 
+  transition: opacity 0.5s ease;
+  max-width: 100%; 
+  margin-left: -3.5rem;
+  
+  @media (min-width: 992px) { /* desktop view*/
+    width: 225px;
+    margin-left: -3.5rem;
+  }
+
+  @media (max-width: 991px) { /*mobile view*/
+    width: 100%;
+    margin-left: 0;
+    opacity: 1; // Keep it visible on mobile since there is no "hover"
+  }
   
   nav[role="doc-toc"], 
   .sidebar-menu-container {
@@ -56,26 +68,26 @@ a {
 }
 
 /* --- Art Presentation elements --- */
-// 1. Remove Quarto's default padding on the custom container
+/* 1. Remove Quarto's default padding on the custom container */
 #quarto-document-columns {
   margin: 0 auto;
   padding: 0;
 }
 
-// 2. The Ten Toes Grid Container
+/* 2. The Ten Toes Grid Container */
 .tt-grid {
   display: grid;
   // Standard 3-column layout
-  grid-template-columns: repeat(3, 1fr); // Replicating theme's spacing (adjust as needed)
+  grid-template-columns: repeat(3, 1fr); /* Replicating theme's spacing (adjust as needed) */
   gap: 15px; 
-  padding: 20px 0; //20px padding top/bottom, let container handle sides
+  padding: 20px 0; /* 20px padding top/bottom, let container handle sides */ 
   width: 100%;
   max-width: 100%; 
   margin: 0 auto;
   
-  // Responsive: 2 columns for tablets, 1 for mobile
+  /* Responsive: 2 columns for tablets, 1 for mobile */
   @media (max-width: 992px) {
-    grid-template-columns: repeat(2, 1fr); // fractional unit of whats left over
+    grid-template-columns: repeat(2, 1fr); /* fractional unit of whats left over */
   }
   @media (max-width: 576px) {
     grid-template-columns: 1fr;
@@ -84,15 +96,15 @@ a {
   }
 }
 
-// 3. The Individual Post (The "Look")
+/* 3. The Individual Post (The "Look") */
 .post {
-  width:100%; // ensure post takes up full width of container
+  width:100%; /* ensure post takes up full width of container */ 
   img {
-    width: 100% !important; // force width w/ !important
+    width: 100% !important; /* force width w/ !important */
     height: auto;
     display: block;
     transition: opacity 0.3s ease;
-    object-fit: cover; // use if imgs are diff size, keeps consistent
+    object-fit: cover; /* use if imgs are diff size, keeps consistent*/ 
   }
 }
 
@@ -110,7 +122,12 @@ a {
     border-radius: 60%;
     flex-shrink: 0;
   }
-} 
+  @media (max-width: 768px){
+    .about-section {
+      display: block
+    }
+  }
+}
 
 .wrap-img img{
   float: left;
@@ -119,13 +136,13 @@ a {
 }
   .img-fluid {
     /* This ensures your art never overflows its column */
-    max-width: 100%; // increased from 100%. i believe only the things i put into a div with class 
-    height: auto;    // .img-fluid will adhere to these attributes
+    max-width: 100%;  
+    height: auto; 
     margin-bottom: 1rem;
 }
 
 .caption-text {
-  font-size: 0.95rem; // changed from 0.90rem
+  font-size: 0.95rem; /* changed from 0.90rem */
   color: $caption-color;
   font-style: italic;
 }
