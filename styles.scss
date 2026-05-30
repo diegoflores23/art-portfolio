@@ -1,0 +1,131 @@
+/*-- scss:defaults --*/
+$font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$primary-text-color: #1a1a1a; /* off black, easier to read */
+$caption-color: #666666;
+$color-bg: #ffffff; /* pure white background */
+$line-height: 1.6;
+$spacing-unit: 1rem;
+
+/*-- scss:rules --*/ 
+body {
+  font-family: $font-main;
+  background-color: $color-bg;
+  color: $primary-text-color;
+  line-height: $line-height;
+  margin: 0;
+  -webkit-font-smoothing: antialiased; /*improves helvetica text, crisp*/
+}
+
+h1, h2, h3, h4 {
+  font-weight: 100;
+  letter-spacing: -0.03em;   /* Tightens the "art gallery" titles */
+  margin-top: $spacing-unit;
+}
+
+/* --- The "Calm" Grid & Links --- */
+a {
+  color: $primary-text-color;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+
+  a:hover {
+    border-bottom: 1px solid $primary-text-color;
+  }
+}
+
+/* --- Sidebar Specifics --- */
+.sidebar,
+.quarto-sidebar {
+  font-size: 0.9rem;
+  padding-top: $spacing-unit;
+  opacity: 0.7; #
+  transition: opacity 15s ease;
+  width: 225px; // also shortens the sidebar width a bit
+  margin-left: -3.5rem; // reduces space on the left margin
+  
+  nav[role="doc-toc"], 
+  .sidebar-menu-container {
+    border-right: none !important; /* Removes cluttering lines */
+  }
+}
+
+.sidebar:hover,
+.quarto-sidebar:hover {
+  opacity: 1;
+}
+
+/* --- Art Presentation elements --- */
+// 1. Remove Quarto's default padding on the custom container
+#quarto-document-columns {
+  margin: 0 auto;
+  padding: 0;
+}
+
+// 2. The Ten Toes Grid Container
+.tt-grid {
+  display: grid;
+  // Standard 3-column layout
+  grid-template-columns: repeat(3, 1fr); // Replicating theme's spacing (adjust as needed)
+  gap: 15px; 
+  padding: 20px 0; //20px padding top/bottom, let container handle sides
+  width: 100%;
+  max-width: 100%; 
+  margin: 0 auto;
+  
+  // Responsive: 2 columns for tablets, 1 for mobile
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr); // fractional unit of whats left over
+  }
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+}
+
+// 3. The Individual Post (The "Look")
+.post {
+  width:100%; // ensure post takes up full width of container
+  img {
+    width: 100% !important; // force width w/ !important
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+    object-fit: cover; // use if imgs are diff size, keeps consistent
+  }
+}
+
+.portfolio-container {
+  padding: $spacing-unit 
+}
+
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+
+  .profile-img {
+    width: 900px;
+    border-radius: 60%;
+    flex-shrink: 0;
+  }
+} 
+
+.wrap-img img{
+  float: left;
+  margin-right: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+  .img-fluid {
+    /* This ensures your art never overflows its column */
+    max-width: 100%; // increased from 100%. i believe only the things i put into a div with class 
+    height: auto;    // .img-fluid will adhere to these attributes
+    margin-bottom: 1rem;
+}
+
+.caption-text {
+  font-size: 0.95rem; // changed from 0.90rem
+  color: $caption-color;
+  font-style: italic;
+}
