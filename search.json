@@ -14,19 +14,26 @@
     "href": "photoshop.html",
     "title": "Diego Flores Contreras",
     "section": "",
-    "text": "Maiz en el trueque. Tepeaca, Puebla / Maiz at the barter. Tepeaca, Puebla. 2026\n\nTrueque antiguo en el tianguis antiguo\ndel barrio santuario\nMontado jueves en la madrugada, ritualistico\nEl maíz al centro, cosechado y cambiado como moneda\nvalor intrínseco (el peso MX$ no): comida, ritual, ecología\nEfímero como requisito, se levanta al siguiente día.\n\nAncient barter in the ancient market\nin the santuario hood\nSet up thursday at dawn, ritualistic\nMaize at the center, harvested and exchanged as currency\nIntrinsic value (not the MX$ peso): food, ritual, ecology\nEphemeral as a requirement, it packs up the next day\n\ndot code and digital photo.\nColor gradient: indianred4 - navajowhite. From x11 (Microsoft) color scheme. Outdated. The graph’s info is a small piece of Chaac Garcia Esparza’s (UNAM) work in the tianguis’ of Puebla. Paper available here. Code below.\n…\nCódigo dot y foto digital.\nGradiente: indianred4 - navajowhite. Esquema de colores de x11 (Microsoft). Anticuado. El info del gráfico es una muestra del trabajo de Chaac Garcia Esparza (UNAM) en los tianguis de Puebla. Lea el árticulo aquí. Código abajo.\n\n\n\n\n\n\nshow code\ngraph G{\n  bgcolor=\"transparent\";\n  layout=neato;\n  fontsize=\"88\";\n  labelloc=\"t\";\n  overlap=orthoyx; #so far the one i like the most & false (reduce edge size)\n  \n  # Global attributes for nodes below\n  node[\n    fontsize=\"72\"\n    style=radial\n    fillcolor=\"navajowhite:indianred4\" // indianred:navajowhite, options 1:4\n    gradientangle=0\n  ];\n  \n  edge[\n    dir=both\n    colorscheme=greys5\n    arrowsize=2\n    penwidth=2\n  ];\n  \n  \"maiz \n  (1 bandeja)\"  -- \"7 calabasitas\";\n  \"maiz \n  (1 bandeja)\" -- cebollines;\n  \"maiz \n  (1 bandeja)\" -- \"te de limon, 2 manojos\";\n  \"maiz \n  (1 bandeja)\" -- \"1 bolsa de chia\";\n  \"maiz \n  (1 bandeja)\" -- \"5 alcachofas\";\n  \"maiz \n  (1 bandeja)\" -- \"6 chiles gueros\";\n  \"maiz \n  (1 bandeja)\" -- \"quelite, 2 manojos\";\n  \"maiz \n  (1 bandeja)\" --\"arnica, 1 manojo\";\n  \"maiz \n  (1 bandeja)\" -- \"huazontle, 2 manojos\";\n  \"maiz \n  (1 bandeja)\" -- \"5 aguacates\";\n  \"maiz \n  (1 bandeja)\" -- \"manzanilla\";\n  \"maiz \n  (1 bandeja)\" -- \"verdolagas\";\n  \"maiz \n  (1 bandeja)\" -- \"13 tomates\";\n  \"maiz \n  (1 bandeja)\" -- \"4 brocolis\";\n  \"maiz \n  (1 bandeja)\" -- \"7 betabeles\"\n  \"maiz \n  (1 bandeja)\" -- \"10 nopales\";\n  \"maiz \n  (1 bandeja)\" -- \"11 peras chicas\";\n  \"maiz \n  (1 bandeja)\" -- \"9 zanahoria\";\n}",
+    "text": "Maiz en el trueque. Tepeaca, Puebla / Maiz at the barter. Tepeaca, Puebla. 2026\n\nTrueque antiguo en el tianguis antiguo\ndel barrio santuario\nMontado jueves en la madrugada, ritualistico\nEl maíz al centro, cosechado y cambiado como moneda\nvalor intrínseco (el peso MX$ no): comida, ritual, ecología\nEfímero como requisito, se levanta al siguiente día.\n\nAncient barter in the ancient market\nin the santuario hood\nSet up thursday at dawn, ritualistic\nMaize at the center, harvested and exchanged as currency\nIntrinsic value (not the MX$ peso): food, ritual, ecology\nEphemeral as a requirement, it packs up the next day\n\ndot code and digital photo.\nColor gradient: indianred4 - navajowhite. From x11 (Microsoft) color scheme. Outdated. The graph’s info is a small piece of Chaac Garcia Esparza’s (UNAM) work in the tianguis’ of Puebla. Paper available here. Code below.\n…\nCódigo dot y foto digital.\nGradiente: indianred4 - navajowhite. Esquema de colores de x11 (Microsoft). Anticuado. El info del gráfico es una muestra del trabajo de Chaac Garcia Esparza (UNAM) en los tianguis de Puebla. Lea el árticulo aquí. Código abajo.\n\n\n\n\n\n\nshow code\ngraph G{\n  bgcolor=\"transparent\";\n  layout=neato;\n  fontsize=\"88\";\n  labelloc=\"t\";\n  overlap=orthoyx; #so far the one i like the most & false (reduce edge size)\n  \n  # Global attributes for nodes below\n  node[\n    fontsize=\"72\"\n    style=radial\n    fillcolor=\"navajowhite:indianred4\" // indianred:navajowhite, options 1:4\n    gradientangle=0\n  ];\n  \n  edge[\n    dir=both\n    colorscheme=greys5\n    arrowsize=2\n    penwidth=2\n  ];\n  \n  \"maiz \n  (1 bandeja)\"  -- \"7 calabasitas\";\n  \"maiz \n  (1 bandeja)\" -- cebollines;\n  \"maiz \n  (1 bandeja)\" -- \"te de limon, 2 manojos\";\n  \"maiz \n  (1 bandeja)\" -- \"1 bolsa de chia\";\n  \"maiz \n  (1 bandeja)\" -- \"5 alcachofas\";\n  \"maiz \n  (1 bandeja)\" -- \"6 chiles gueros\";\n  \"maiz \n  (1 bandeja)\" -- \"quelite, 2 manojos\";\n  \"maiz \n  (1 bandeja)\" --\"arnica, 1 manojo\";\n  \"maiz \n  (1 bandeja)\" -- \"huazontle, 2 manojos\";\n  \"maiz \n  (1 bandeja)\" -- \"5 aguacates\";\n  \"maiz \n  (1 bandeja)\" -- \"manzanilla\";\n  \"maiz \n  (1 bandeja)\" -- \"verdolagas\";\n  \"maiz \n  (1 bandeja)\" -- \"13 tomates\";\n  \"maiz \n  (1 bandeja)\" -- \"4 brocolis\";\n  \"maiz \n  (1 bandeja)\" -- \"7 betabeles\"\n  \"maiz \n  (1 bandeja)\" -- \"10 nopales\";\n  \"maiz \n  (1 bandeja)\" -- \"11 peras chicas\";\n  \"maiz \n  (1 bandeja)\" -- \"9 zanahoria\";\n}"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Diego Flores is a multi-disciplinary artist from East LA whose work explores the aesthetic, cultural, and quotidian responses that emerge from the margins, down below and to the left. Through writing, paint, and mixed media, they reflect on these responses in the face of the U.S.’s dominant cultural and economic project.\n\n\n\nDiego Flores es un artista multidisciplinario del este de Los Angeles cuya obra explora las respuestas esteticas, culturales, y cotidianas que salen desde los margenes, hacia abajo, y a la izquierda. A traves de la escritura, pintura, y medios mixtos, refleja sobre estas respuestas frente al proyecto culturual y economico dominante de los estados unidos.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis website was written in R/ quarto. Feel free to use the code. See code here.",
     "crumbs": [
-      "Digital"
+      "About"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "photography.html",
+    "href": "photography.html",
     "title": "Diego Flores Contreras",
     "section": "",
-    "text": "I read somewhere that Zapata\nstormed into town on horseback\nwith a banner representing Mother Earth.\n\nTonantzin.\nVirgen de guadalupe.\nMary.\nTonantzin.",
+    "text": "WIP\n\n\n\nPhoto archive 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelf portrait 2\n\n\n\n\n\n\n\nSelf portrait 3\n\n\n\n\n\n\n\nSelf portrait 1\n\n\n\n\n\n\n\n\n\n\nPei",
     "crumbs": [
-      "Home"
+      "Photo"
     ]
   },
   {
@@ -44,23 +51,23 @@
     "text": "from photoshop.qmd:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfrom photography.qmd:\n\nin this page I will include all of my photos but in a grid style 12 columns, use 3 of those? how does that syntax read again?\nNESTING: Within here include the lipstick series.\nphotos I have simply edited\n\nNotes\nThis is index.qmd or rather the intro page. Currently looking to add:\nfull width\nnice minimalist font, black, sharper contrast.. maybe bolded\nfont-family: helvetica\nfont-weight: normal, bold,\nfont-style:italic, normal\ngrid spacing using page-layout: custom (Bootstrap CSS grid layout system 5.1), essentially wrapping whatever qmd page in a 3 column .grid (div I think). See gemini code below. Index.qmd will likely remain a large singular photo if I have the guts/ photos to make it that haha. Then the additional .qmd files will be:\nDigital art\nNacotitlan\nOld photography\nWritings\n::: {.grid} ::: {.g-col-12 .g-col-md-3} ### My Portfolio \nThis is where your Ten Toes “Sidebar” content goes. - Home - About - Archive :::\n::: {.g-col-12 .g-col-md-9} ## My Work — listing: contents: posts type: grid columns: 3 — ::: :::\ng-col-12 s\nlots of images\nleft side bar, not top nav bar, sidebar should be\nNotes on .scss/ .css files\nSass uses the $ symbol, followed by a name, to declare variables:\nSass Variable Syntax: $variablename: value;\nNOTES\nthe content of my website is essentially a collection of qmd documents\nI wonder if in this I can support large image files… shouldnt be an issue\nTo add a CSS stylesheet to your document, just provide the css option. For example:\nformat: html: css: styles.css\nUsing the css option works well for simple tweaks to document appearance. If you want to do more extensive customization see the documentation on HTML Themes.\na big chunk of my protfolios apearance will be in customzing the css (font and positioning of images.. grids, etc.) and the sidebar\nincludes\nIf you want to include additional content in your document from another file, you can use the include-in-*options:\nOption\nDescription\ninclude-in-header\nInclude contents of file, verbatim, at the end of the header. This can be used, for example, to include special CSS or JavaScript in HTML documents or to inject commands into the LaTeX preamble.\nSummary of where things go:\nCSS Styles: All the design rules go into styles.css.: visual polish, colors, specific spacing, effects, etc.\nLayout/ Site-wide Structure: This is handled by _quarto.yml… i.e.: (Navigation, Sidebars, Themes).\nThe Content: Your actual images and posts go into individual .qmd files (e.g., in a /posts folder), which the “Listing” feature will automatically pull into the grid.\nKEY: my website setting MUST BE GLOBAL, so write most of my setting in quarto.yml. alternatively treat every portfolio page somewhat differently, in which case,\nThe .qmd file is for Content & Page-Specific Layout. (Markdown + Bootstrap Classes).\nThe .css file is for Visual Polish. (Colors, specific spacing, hover effects).\nAchieving the ten toes look\nCSS Grid\nIf you are using page-layout: custom, you’ll likely want to utilize the Bootstrap CSS Grid layout system (which is available by default in Quarto documents) for creating more sophisticated layouts.\nFor example, here’s a simple 2-column grid:\n\n\nThis column takes 1/3 of the page\n\n::: {.g-col-8} This column takes 2/3 of the page :::\n\nBootstrap’s CSS Grid system includes facilities for responsiveness, wrapping, nesting, and fine grained customization of column behavior.\nNote that this isn’t the traditional Bootstrap grid used in older versions of Bootstrap – rather, it’s a brand new layout system introduced in Bootstrap 5.1 based on the CSS Grid standard. Quarto uses this newer system because it has more sophisticated layout capabilities akin to what LaTeX offers for print documents.\nSee the Bootstrap CSS Grid documentation for additionals details."
   },
   {
-    "objectID": "photography.html",
-    "href": "photography.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Diego Flores Contreras",
     "section": "",
-    "text": "WIP\n\n\n\nPhoto archive 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelf portrait 2\n\n\n\n\n\n\n\nSelf portrait 3\n\n\n\n\n\n\n\nSelf portrait 1\n\n\n\n\n\n\n\n\n\n\nPei",
+    "text": "I read somewhere that Zapata\nstormed into town on horseback\nwith a banner representing Mother Earth.\n\nTonantzin.\nVirgen de guadalupe.\nMary.\nTonantzin.",
     "crumbs": [
-      "Photo"
+      "Home"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "art.html",
+    "href": "art.html",
+    "title": "Diego Flores Contreras",
     "section": "",
-    "text": "Diego Flores is a multi-disciplinary artist from East LA whose work explores the aesthetic, cultural, and quotidian responses that emerge from the margins, down below and to the left. Through writing, paint, and mixed media, they reflect on these responses in the face of the U.S.’s dominant cultural and economic project.\n\n\n\nDiego Flores es un artista multidisciplinario del este de Los Angeles cuya obra explora las respuestas esteticas, culturales, y cotidianas que salen desde los margenes, hacia abajo, y a la izquierda. A traves de la escritura, pintura, y medios mixtos, refleja sobre estas respuestas frente al proyecto culturual y economico dominante de los estados unidos.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis website was written in R/ quarto. Feel free to use the code. See code here.",
+    "text": "WIP",
     "crumbs": [
-      "About"
+      "Work"
     ]
   },
   {
