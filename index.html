@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -130,13 +133,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./photoshop.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">digital</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./photography.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Photo</span></a>
+ <span class="menu-text">Digital</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -158,21 +155,48 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="wrap-img">
-<p><img src="images/hollister.png" class="img-fluid" style="width:75.0%"><br>
+<p><br>
+<img src="images/recolor_rep3_fe75ec_00278a.png" class="img-fluid"><br>
 <br>
 <br>
+<em>I read somewhere that Zapata</em><br>
+<em>stormed into town on horseback</em><br>
+<em>with a banner representing Mother Earth.</em><br>
 <br>
-I read somewhere that Zapata<br>
-stormed into town on horseback<br>
-with a banner representing Mother Earth.<br>
-<br>
-Tonantzin.<br>
-Virgen de guadalupe.<br>
-Mary.<br>
-Tonantzin.<br>
+<em>Tonantzin.</em><br>
+<em>Virgen de guadalupe.</em><br>
+<em>Mary</em>.<br>
+<em>Tonantzin</em>.<br>
 </p>
 <p><br>
 </p>
+</div>
+<p><a href=".png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src=".png" class="img-fluid"></a></p>
+<div>
+<p><a href="images/mika.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/mika.png" class="img-fluid"></a></p>
+</div>
+<p><strong>A public series of poetry and Mikaela’s textiles.</strong></p>
+<p><strong>Diego Flores &amp; Roman Casper, School at the Edge.</strong></p>
+<p><strong>Installation 1, SW Corner of Western Ave &amp; Pico Blvd. June 2026</strong></p>
+<div class="tt-grid">
+<div class="post">
+<p><a href="images/m3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/m3.jpg" class="img-fluid"></a></p>
+</div>
+<div class="post">
+<p><a href="images/m5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/m5.jpg" class="img-fluid"></a></p>
+</div>
+<div class="post">
+<p><a href="images/m6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="images/m6.jpg" class="img-fluid"></a></p>
+</div>
+<div class="post">
+<p><a href="images/m1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="images/m1.jpg" class="img-fluid"></a></p>
+</div>
+<div class="post">
+<p><a href="images/m2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="images/m2.jpg" class="img-fluid"></a></p>
+</div>
+<div class="post">
+<p><a href="images/m4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="images/m4.jpg" class="img-fluid"></a></p>
+</div>
 </div>
 
 
@@ -599,6 +623,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
